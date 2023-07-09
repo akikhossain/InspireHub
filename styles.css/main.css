@@ -103,12 +103,21 @@ i {
 }
 .skill-container {
   display: flex;
-  justify-content: space-around;
-  padding: 0 250px;
+  gap: 132px;
+  padding: 55px 270px;
+  text-align: center;
 }
 .skill-title {
   color: #151414;
   text-align: center;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
+}
+.skill-description {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 135px;
 }
