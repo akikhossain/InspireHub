@@ -60,11 +60,10 @@ body {
 }
 .person {
   margin-left: 277px;
-  background-image: url("../images/gradient2.png");
+  background-image: linear-gradient(url("../images/gradient2.png"));
   background-repeat: no-repeat;
-  /* background-position: fixed; */
-  border-radius: 200px;
-  background: rgba(241, 91, 34, 0.2);
+
+  /* background-blend-mode: overlay; */
 }
 .person-description {
   width: 420px;
@@ -120,4 +119,26 @@ i {
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 135px;
+}
+
+footer {
+}
+.positive-title {
+  color: #121111;
+  font-size: 40px;
+  font-weight: 700;
+  height: ;
+}
+.btn {
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px, 36px;
+}
+.positive-section {
+  background-image: url("../images/watch.png"), url("../images/gradient1.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+
+  width: 1140px;
+  height: 300px;
 }
