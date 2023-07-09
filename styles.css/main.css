@@ -59,9 +59,14 @@ body {
 }
 .person {
   margin-left: 277px;
+  background-image: url("../images/gradient2.png");
+  background-repeat: no-repeat;
+  border-radius: 527px;
+  background: rgba(241, 91, 34, 0.2);
 }
 .person-description {
   width: 420px;
+  margin-top: 255px;
 }
 .section-title {
   color: #151414;
@@ -82,4 +87,8 @@ body {
   line-height: 26px;
   list-style: none;
   margin-top: 24px;
+}
+ul > li,
+i {
+  stroke: green;
 }
