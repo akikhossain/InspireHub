@@ -56,12 +56,14 @@ body {
   display: flex;
   gap: 130px;
   margin-top: 100px;
+  margin-bottom: 120px;
 }
 .person {
   margin-left: 277px;
   background-image: url("../images/gradient2.png");
   background-repeat: no-repeat;
-  border-radius: 527px;
+  /* background-position: fixed; */
+  border-radius: 200px;
   background: rgba(241, 91, 34, 0.2);
 }
 .person-description {
@@ -91,4 +93,22 @@ body {
 ul > li,
 i {
   stroke: green;
+}
+.plan {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 250px;
+}
+.skill-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
 }
