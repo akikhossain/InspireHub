@@ -51,3 +51,35 @@ body {
   border: none;
   margin-left: 364px;
 }
+
+.main-section {
+  display: flex;
+  gap: 130px;
+  margin-top: 100px;
+}
+.person {
+  margin-left: 277px;
+}
+.person-description {
+  width: 420px;
+}
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.section-item {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  list-style: none;
+  margin-top: 24px;
+}
