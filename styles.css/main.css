@@ -1,0 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url(../images/banner/banner1.png);
+}
