@@ -2,6 +2,52 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
 .header {
   background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.header-description {
+  display: flex;
+  width: 525px;
+  flex-direction: column;
+  flex-shrink: 0;
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+.head-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+.head-description {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  /* text-align: right; */
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 26px;
+  width: 160px;
+  /* height: 64px; */
+  /* flex-shrink: 0; */
+  margin-top: 34px;
+  border: none;
+  margin-left: 364px;
 }
