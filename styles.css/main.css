@@ -7,6 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+/* main header section style */
 .header {
   background-image: url(../images/banner/banner1.png);
   background-repeat: no-repeat;
@@ -51,7 +52,7 @@ body {
   border: none;
   margin-left: 364px;
 }
-
+/* main section style */
 .main-section {
   display: flex;
   gap: 130px;
@@ -103,6 +104,7 @@ ul > li,
 i {
   stroke: green;
 }
+/* my plan section style */
 .plan {
   color: #151414;
   font-size: 40px;
@@ -155,9 +157,6 @@ i {
 }
 .positive-section {
   border-radius: 8px;
-  /* margin-top: 55px;
-  margin-left: 64px;
-  margin-bottom: 60px; */
   padding: 5px 64px;
 }
 .positive {
@@ -176,6 +175,8 @@ i {
   margin: 0 auto;
   margin-bottom: 130px;
 }
+
+/* footer section style */
 footer {
   display: flex;
   gap: 330px;
