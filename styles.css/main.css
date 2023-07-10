@@ -55,16 +55,25 @@ body {
 .main-section {
   display: flex;
   gap: 130px;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 120px;
+}
+.gradient {
+  margin-top: 150px;
+}
+.person > img {
+  position: absolute;
+  top: 1032px;
+  left: 253px;
 }
 .person {
   margin-left: 277px;
-  background-image: linear-gradient rgba(241, 91, 34, 0.2),
-    (url("../images/gradient2.png"));
-  background-repeat: no-repeat;
-
-  /* background-blend-mode: overlay; */
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  width: 528px;
+  height: 528px;
+  display: block;
+  text-align: center;
 }
 .person-description {
   width: 420px;
