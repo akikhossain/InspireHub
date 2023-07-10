@@ -121,24 +121,39 @@ i {
   margin-bottom: 135px;
 }
 
-footer {
-}
 .positive-title {
   color: #121111;
   font-size: 40px;
   font-weight: 700;
-  height: ;
+  display: flex;
+  width: 459px;
+  flex-direction: column;
+  flex-shrink: 0;
 }
-.btn {
+.btn-second {
   border-radius: 5px;
   background: #fff;
-  padding: 20px, 36px;
+  padding: 24px, 36px;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
 }
 .positive-section {
-  background-image: url("../images/watch.png"), url("../images/gradient1.png");
-  background-repeat: no-repeat;
   border-radius: 8px;
-
+  margin-top: 55px;
+  margin-left: 64px;
+}
+.positive {
+  background-image: url("../images/watch.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 1140px;
   height: 300px;
+  flex-shrink: 0;
+  margin: 0 auto;
 }
