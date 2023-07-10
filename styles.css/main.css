@@ -176,3 +176,65 @@ i {
   margin: 0 auto;
   margin-bottom: 130px;
 }
+footer {
+  display: flex;
+  gap: 330px;
+  background-color: #000000;
+}
+.contact-container {
+  padding: 130px 230px;
+  width: 485px;
+}
+.contact-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.contact-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.email-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  /* margin-bottom: 16px; */
+}
+.contact-form {
+  padding: 130px 230px 243px 230px;
+  width: 325px;
+}
+.subscribe {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+.contact-email input[type="email"] {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  color: #f3f3f3;
+  font-size: 18px;
+  background: #151414;
+  padding: 21px 22px;
+  margin-bottom: 16px;
+}
+.contact-email input[type="submit"] {
+  border-radius: 8px;
+  background: #fff;
+  color: #f15b22;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 36px;
+}
+.social-links a {
+  /* margin-top: 32px; */
+  margin-right: 10px;
+}
+.social-links {
+  margin-top: 32px;
+}
