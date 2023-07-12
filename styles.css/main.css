@@ -41,18 +41,21 @@ body {
   border-radius: 5px;
   background: #f15b22;
   color: #fff;
-  /* text-align: right; */
   font-size: 20px;
   font-weight: 600;
   padding: 20px 26px;
   width: 160px;
-  /* height: 64px; */
-  /* flex-shrink: 0; */
   margin-top: 34px;
   border: none;
   margin-left: 364px;
+  cursor: pointer;
 }
-/* main section style */
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #ca2727;
+}
+
 .main-section {
   display: flex;
   gap: 130px;
@@ -155,6 +158,11 @@ i {
   height: 64px;
   flex-shrink: 0;
   border: none;
+  cursor: pointer;
+}
+.btn-second:hover {
+  color: rgb(255, 255, 255);
+  background-color: #752e07;
 }
 .positive-section {
   border-radius: 8px;
@@ -209,6 +217,12 @@ footer {
   padding: 130px 230px 243px 230px;
   width: 325px;
 }
+
+.contact-form input[type="submit"]:hover {
+  color: #fff;
+  background-color: #8d1616;
+}
+
 .subscribe {
   color: #fff;
   font-size: 25px;
